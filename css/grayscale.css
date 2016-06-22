@@ -120,7 +120,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #333;
 }
 
 @media(min-width:768px) {
@@ -148,12 +148,11 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-    background-color: #fff;
+    background-color: #584a3f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    margin-top:80px;
 }
 
 .intro .intro-body {
@@ -162,7 +161,8 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 4rem;
+    color:#fff;
 }
 
 .intro .intro-body .intro-text {
@@ -374,4 +374,11 @@ body {
 
 .content-section {
     padding-top: 100px;
+}
+
+/* customs nelson */
+
+.intro {
+    padding: 0px;
+    margin-top:50px;
 }
